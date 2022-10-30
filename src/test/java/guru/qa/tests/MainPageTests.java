@@ -1,7 +1,6 @@
-package cloud.autotests.tests;
+package guru.qa.tests;
 
-import cloud.autotests.helpers.DriverUtils;
-import com.codeborne.selenide.Condition;
+import guru.qa.helpers.DriverUtils;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MainPageTests extends TestBase {
     @Test
     @DisplayName("Project modal form should appear on main page")
-    void generatedTest() {
+    void projectModalFormTest() {
         step("Open url 'https://e-legion.ru'", () ->
                 open("https://e-legion.ru"));
 

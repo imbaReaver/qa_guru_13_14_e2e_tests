@@ -34,7 +34,7 @@ allure serve build/allure-results
 ```
 
 
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
+###### For further development there are some example tests in src/test/java/cloud.qa/tests/demowebshop
 * remove @Disabled("...") annotation to run tests
 ```bash
 gradle clean demowebshop
