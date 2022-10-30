@@ -1,7 +1,6 @@
 package guru.qa.tests;
 
 import guru.qa.helpers.DriverUtils;
-import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
